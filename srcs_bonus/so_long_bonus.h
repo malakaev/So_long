@@ -126,7 +126,7 @@ enum	e_add_code
 	EXIT,
 	STOP,
 	DY = 30,
-	DTXT = 3,
+	DTXT = 20,
 	TRUE = 1,
 	FALSE = 0,
 	MAX_RESX = 2550,

@@ -52,6 +52,6 @@ void	ft_put_img_map(t_param *prm, t_map *map, unsigned int i)
 	if (prm->steps != prm->steps_old)
 	{
 		prm->steps_old = prm->steps;
-		ft_table_put2(prm, map);
+		ft_table_put(prm, map);
 	}
 }

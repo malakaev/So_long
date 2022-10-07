@@ -39,7 +39,10 @@ void	init_parameters(t_param *prm, t_map *map)
 	prm->collected = 0;
 	prm->unlock_exit = LOCK;
 	prm->count = 0;
+	prm->steps = 0;
 	prm->result = IN_GAME;
+	prm->num_str[0] = '0';
+	prm->num_str[1] = '\0';
 }
 
 void	ft_map_check_name(int argc, char **argv)
